@@ -1,0 +1,14 @@
+# 构建产物（exe / .o / Makefile / 拷贝进来的 DLL 全在 build 下）
+/build/
+
+# Qt Creator 用户级配置（含本机绝对路径）
+/.qtcreator/
+*.user
+
+# 数据库连接配置 —— 含 MySQL 密码，绝不提交。
+# 首次克隆后复制 dbconfig.ini.example 为 dbconfig.ini，再填自己的密码。
+/dbconfig.ini
+
+# 编译中间文件
+*.o
+*.obj
